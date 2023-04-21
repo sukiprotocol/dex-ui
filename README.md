@@ -15,8 +15,8 @@ Useful links:
 - Website: [sukiswap.com](https://sukiswap.com/)
 - Beta: [beta.sukiswap.com](https://beta.sukiswap.com/)
 - Info: [info.sukiswap.com](https://info.sukiswap.com)
-- Twitter: [@SukiSwapDEX](https://twitter.com/SukiSwapDEX)
-- Reddit: [/r/SukiSwap](https://www.reddit.com/r/SukiSwap)
+- Twitter: [@SukiSwapDEX](https://twitter.com/sukiswapDEX)
+- Reddit: [/r/SukiSwap](https://www.reddit.com/r/sukiswapDEX)
 - Discord: [SukiSwap](https://discord.gg/KTgdBTnU)
 
 ## Accessing the SukiSwap Interface
