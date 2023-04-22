@@ -38,6 +38,7 @@
   background: $grey3;
   border-radius: 20px;
   padding: 24px;
+  border: 2px solid $borderColor;
   @include media('screen', '<phone') {
     padding: 12px;
   }
@@ -110,7 +111,7 @@
 }
 
 .filledButton {
-  background: linear-gradient(279deg, rgb(0, 76, 230), rgb(61, 113, 255));
+  background: linear-gradient(279deg, rgba(95, 55, 235), rgba(109, 72, 239));
 }
 
 .analyticsDetailsInfo {

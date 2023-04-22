@@ -6,7 +6,7 @@ import {
 import { merge } from 'lodash';
 
 // colors
-const primary = '#ba973a';
+const primary = '#7852FF';
 const primaryDark = '#1C2938';
 const secondary = '#344252';
 const secondaryLight = '#23252b';
@@ -93,7 +93,7 @@ export const mainTheme = responsiveFontSizes(
       },
     },
     typography: {
-      fontFamily: "'Inter', sans-serif",
+      fontFamily: "'Lexend', sans-serif",
       fontWeightRegular: 500,
     },
     overrides: {

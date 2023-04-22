@@ -17,7 +17,7 @@ import { shortenAddress, isSupportedNetwork } from 'utils';
 import useENSName from 'hooks/useENSName';
 import { WalletModal, NetworkSelectionModal } from 'components';
 import { useActiveWeb3React } from 'hooks';
-import QuickIcon from 'assets/images/logo.svg';
+import QuickIcon from 'assets/images/suki-icon.svg';
 import QuickLogo from 'assets/images/logo.svg';
 import { ReactComponent as ThreeDotIcon } from 'assets/images/ThreeDot.svg';
 // import { ReactComponent as LightIcon } from 'assets/images/LightIcon.svg';
@@ -229,7 +229,7 @@ const Header: React.FC = () => {
         <img
           src={mobileWindowSize ? QuickIcon : QuickLogo}
           alt='QuickLogo'
-          height={mobileWindowSize ? 40 : 60}
+          height={mobileWindowSize ? 40 : 48}
         />
       </Link>
       {!tabletWindowSize && (

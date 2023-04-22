@@ -135,9 +135,9 @@ const FarmPage: React.FC = () => {
           </Box>
         )}
       </Box>
-      <Box maxWidth={isMobile ? '320px' : '1136px'} margin='0 auto 24px'>
+      {/*<Box maxWidth={isMobile ? '320px' : '1136px'} margin='0 auto 24px'>
         <AdsSlider sort='farms' />
-      </Box>
+      </Box>*/}
       {isV2 && v2 && (
         <>
           {/* Custom switch layer */}

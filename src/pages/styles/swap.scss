@@ -30,6 +30,11 @@
   padding: 120px 8px 0px;
   max-width: 480px;
   width: 100%;
+  @include media('screen', '<phone') {
+    padding: 24px;
+    min-width: 360px;
+    width: 100%;
+  }
 }
 
 .swapItem {

@@ -97,7 +97,7 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children, name }) => {
       <Header />
       {!isProMode && <Background fallback={false} />}
       <Box className={getPageWrapperClassName()}>{children}</Box>
-      <Footer />
+      {/*<Footer />*/}
     </Box>
   );
 };
