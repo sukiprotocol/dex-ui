@@ -12,7 +12,7 @@ import { useDerivedSwapInfo as useDerivedSwapInfoV3 } from 'state/swap/v3/hooks'
 import { getPairAddress, getPairAddressV3 } from 'utils';
 import { wrappedCurrency, wrappedCurrencyV3 } from 'utils/wrappedCurrency';
 import SwapDefaultMode from './SwapDefaultMode';
-import SwapPageHeader from './SwapPageHeader';
+// import SwapPageHeader from './SwapPageHeader';
 import SwapProMain from './SwapProMain';
 
 const SwapPage: React.FC = () => {
@@ -77,7 +77,7 @@ const SwapPage: React.FC = () => {
           onClose={() => setOpenSettingsModal(false)}
         />
       )}
-      <SwapPageHeader proMode={isProMode} />
+      {/*<SwapPageHeader proMode={isProMode} />*/}
       {isProMode ? (
         <SwapProMain
           pairId={pairId}
@@ -92,9 +92,9 @@ const SwapPage: React.FC = () => {
         />
       )}
 
-      <Box maxWidth={isMobile ? '320px' : '1136px'} margin='24px auto 24px'>
+      {/*<Box maxWidth={isMobile ? '320px' : '1136px'} margin='24px auto 24px'>
         <AdsSlider sort='analytics' />
-      </Box>
+      </Box>*/}
     </Box>
   );
 };

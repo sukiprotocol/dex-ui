@@ -61,6 +61,16 @@ body {
   }
 }
 
+.swapWrapper {
+  padding: 16px;
+  background: $bgPalette;
+  border-radius: 20px;
+  width: 480px;
+  @include media("screen", "<phone") {
+    padding: 16px 12px
+  }
+}
+
 .cardRow {
   display: flex;
   align-items: center;

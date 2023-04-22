@@ -122,6 +122,18 @@ export default function CurrencyInputPanel({
 
       <Box id={id} className={`swapBox ${bgClass}`}>
         <Box mb={2}>
+          <Box className='inputWrapper'>
+            <NumericalInput
+              value={value}
+              //align='right'
+              color={color}
+              placeholder='0.00'
+              onUserInput={(val) => {
+                if (val === '.') val = '0.';
+                onUserInput(val);
+              }}
+            />
+          </Box>
           <Box>
             <Box
               className={`currencyButton  ${'token-select-background-v3'}  ${
@@ -158,21 +170,13 @@ export default function CurrencyInputPanel({
               )}
             </Box>
           </Box>
-
-          <Box className='inputWrapper'>
-            <NumericalInput
-              value={value}
-              align='right'
-              color={color}
-              placeholder='0.00'
-              onUserInput={(val) => {
-                if (val === '.') val = '0.';
-                onUserInput(val);
-              }}
-            />
-          </Box>
         </Box>
         <Box className='flex justify-between'>
+          <Box className='v3-currency-input-usd-value'>
+            <small className='text-secondary'>
+              ${valueAsUsd.toLocaleString('us')}
+            </small>
+          </Box>
           <Box display='flex'>
             <small className='text-secondary'>
               {t('balance')}:{' '}
@@ -191,12 +195,6 @@ export default function CurrencyInputPanel({
                 <small>{t('max')}</small>
               </Box>
             )}
-          </Box>
-
-          <Box className='v3-currency-input-usd-value'>
-            <small className='text-secondary'>
-              ${valueAsUsd.toLocaleString('us')}
-            </small>
           </Box>
         </Box>
       </Box>

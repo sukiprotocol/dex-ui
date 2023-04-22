@@ -11,16 +11,18 @@ const SwapPageHeader: React.FC<{ proMode: boolean }> = ({ proMode }) => {
     <></>
   ) : (
     <Box className='pageHeading'>
-      <h4>{t('swap')}</h4>
-      {helpURL && (
-        <Box
-          className='helpWrapper'
-          onClick={() => window.open(helpURL, '_blank')}
-        >
-          <small>{t('help')}</small>
-          <HelpIcon />
-        </Box>
-      )}
+      <Box className='flex row items-center'>
+        <h4>{t('swap')}</h4>
+      </Box>
+        {helpURL && (
+          <Box
+            className='helpWrapper'
+            onClick={() => window.open(helpURL, '_blank')}
+          >
+            <small>{t('help')}</small>
+            <HelpIcon />
+          </Box>
+        )}
     </Box>
   );
 };

@@ -39,7 +39,7 @@ const SwapDefaultMode: React.FC<{
   return (
     <Grid>
       <Grid container justifyContent='center' spacing={2}>
-        <Grid item xs={12} sm={12} md={6} lg={4}>
+        {/*<Grid item xs={12} sm={12} md={6} lg={4}>
           <Grid container justifyContent='flex-end' spacing={2}>
             <Grid item>
               <Box
@@ -87,16 +87,16 @@ const SwapDefaultMode: React.FC<{
               </Grid>
             )}
           </Grid>
-        </Grid>
-        <Grid item xs={12} sm={12} md={6} lg={4}>
-          <Box className='wrapper'>
-            <SwapMain />
-          </Box>
-          {/* <Box sx={{ marginTop: '16px' }}>
+        </Grid>*/}
+        {/*<Grid item xs={12} sm={12} md={6} lg={4}>*/}
+        <Box className='swapWrapper'>
+          <SwapMain />
+        </Box>
+        {/* <Box sx={{ marginTop: '16px' }}>
             <AdsSlider sort='swap' />
           </Box> */}
-        </Grid>
-        <Grid item lg={4}>
+        {/*</Grid>*/}
+        {/*<Grid item lg={4}>
           <Grid container justifyContent='flex-start' spacing={2}>
             {rightOpen && (
               <Grid item xs={12} lg={10}>
@@ -123,7 +123,7 @@ const SwapDefaultMode: React.FC<{
               </Box>
             </Grid>
           </Grid>
-        </Grid>
+        </Grid>*/}
       </Grid>
     </Grid>
   );
