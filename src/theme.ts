@@ -6,7 +6,7 @@ import {
 import { merge } from 'lodash';
 
 // colors
-const primary = '#7852FF';
+const primary = '#1DC999';
 const primaryDark = '#1C2938';
 const secondary = '#344252';
 const secondaryLight = '#23252b';
@@ -16,7 +16,7 @@ const white = '#ffffff';
 
 const textPrimary = '#e3e5ee';
 const textSecondary = '#696c80';
-const bgColor = '#141517';
+const bgColor = '#09090f';
 const bgPalette = '#191b20';
 
 const successMain = '#0fc679';

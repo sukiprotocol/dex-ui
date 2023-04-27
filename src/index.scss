@@ -10,7 +10,7 @@ body {
   height: 100vh;
   transform: unset;
   font-family: 'Lexend', sans-serif;
-  background: radial-gradient(100% 100% at 50% 0%, rgba(67, 31, 140, 0.2) 0%, rgba(121, 89, 175, 0.05) 50%, rgba(0, 0, 0, 0) 100%), rgba(6, 6, 7, 1);
+  background: radial-gradient(100% 100% at 50% 0%, rgba(37, 42, 123, 0.2) 0%, rgba(121, 89, 175, 0.05) 50%, rgba(0, 0, 0, 0) 100%), rgba(6, 6, 7, 1);
   background-repeat: no-repeat;
 
   iframe[style*="z-index: 2147483647"] {
@@ -62,7 +62,7 @@ body {
   padding: 24px;
   background: $bgPalette;
   border-radius: 20px;
-  border: 2px solid $borderColor;
+  border: 1px solid $borderColor;
   @include media("screen", "<phone") {
     padding: 16px 12px
   }
@@ -73,7 +73,7 @@ body {
   background: $bgPalette;
   border-radius: 20px;
   width: 480px;
-  border: 2px solid $borderColor;
+  border: 1px solid $borderColor;
   @include media("screen", "<phone") {
     padding: 16px 12px
   }

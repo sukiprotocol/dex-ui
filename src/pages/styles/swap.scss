@@ -28,7 +28,7 @@
 
 #swap-page {
   padding: 120px 8px 0px;
-  max-width: 480px;
+  // max-width: 480px;
   width: 100%;
   @include media('screen', '<phone') {
     padding: 24px;
